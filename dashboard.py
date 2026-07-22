@@ -10,7 +10,7 @@ st.markdown("### Customer Segment & Order Behaviour Dashboard")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/novamart_clean.csv")
+    df = pd.read_csv("novamart_clean.csv")
     return df
 
 df = load_data()
